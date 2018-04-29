@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
-public class RegisterUserActivity extends Activity{
+public class RegisterUserActivity extends Activity {
 
     private Button registerButton;
     private EditText editTextEmail;
@@ -37,21 +37,16 @@ public class RegisterUserActivity extends Activity{
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        registerButton = findViewById(R.id.register_now_button);
-        editTextEmail = findViewById(R.id.registerEmail);
-        editTextPassword = findViewById(R.id.registerPassword);
-        editTextConfirmPassword = findViewById(R.id.confirmPassword);
+        registerButton = (Button) findViewById(R.id.register_now_button);
+        editTextEmail = (EditText) findViewById(R.id.registerEmail);
+        editTextPassword = (EditText) findViewById(R.id.registerPassword);
+        editTextConfirmPassword = (EditText) findViewById(R.id.confirmPassword);
         spinner = (ProgressBar)findViewById(R.id.progressBar1);
-
-       registerButton.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               onButtonClick(v);
-           }
-       });
+        spinner.setVisibility(View.GONE);
     }
 
     public void selectPreference(View view){
+
         boolean isChecked = ((CheckBox) view).isChecked();
 
         switch (view.getId())
@@ -88,7 +83,6 @@ public class RegisterUserActivity extends Activity{
                 break;
         }
     }
-
 
     public void onButtonClick(View view)
     {
