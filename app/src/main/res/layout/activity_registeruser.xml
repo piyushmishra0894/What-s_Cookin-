@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="280dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Re-type password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerPassword" />
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@+id/registerPassword"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/registerPassword"
+            app:layout_constraintTop_toBottomOf="@+id/enterDetailsText"/>
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:hint="Choose Password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/confirmPassword"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/confirmPassword"
+            app:layout_constraintTop_toBottomOf="@+id/registerEmail" />
+
+        <TextView
+            android:id="@+id/enterDetailsText"
+            android:layout_width="174dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="27dp"
+            android:text="Enter Details"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:fontFamily="sans-serif"
+            app:layout_constraintBottom_toTopOf="@+id/registerEmail"
+            app:layout_constraintEnd_toEndOf="@+id/registerEmail"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/registerEmail"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/preferenceLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Choose Preferences:"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="24sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="302dp"
+            android:layout_height="134dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/preferenceLbl" />
+
+            <CheckBox
+                android:id="@+id/nonvegCheckbox"
+                android:layout_width="157dp"
+                android:layout_height="32dp"
+                android:onClick="selectPreference"
+                android:text="Non-Vegetarian"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/veganCheckbox"
+                app:layout_constraintStart_toStartOf="@+id/veganCheckbox" />
+
+            <CheckBox
+                android:id="@+id/veganCheckbox"
+                android:layout_width="83dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="selectPreference"
+                android:text="Vegan"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:id="@+id/vegCheckbox"
+                android:layout_width="118dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="8dp"
+                android:checked="false"
+                android:onClick="selectPreference"
+                android:text="Vegetarian"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/nonvegCheckbox"
+                app:layout_constraintStart_toStartOf="@+id/nonvegCheckbox" />
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="368dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="45dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Register"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view" />
+
+</android.support.constraint.ConstraintLayout>

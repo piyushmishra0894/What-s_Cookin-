@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1004526757724",
+    "firebase_url": "https://what-scookin.firebaseio.com",
+    "project_id": "what-scookin",
+    "storage_bucket": "what-scookin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004526757724:android:b83dd6adc865ea31",
+        "android_client_info": {
+          "package_name": "com.ncsu.pmishra.whatscookin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004526757724-vvt0av759sglma8oc87s537ccm2ngu9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncsu.pmishra.whatscookin",
+            "certificate_hash": "a9d305269a095bc25c1689fc9a4dd6764add1279"
+          }
+        },
+        {
+          "client_id": "1004526757724-jdomtf208e36h2sm779st3f964fon90a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCghfn8y6FGhJTrsrQcAKe1TZivRIoO9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004526757724-jdomtf208e36h2sm779st3f964fon90a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
