@@ -39,11 +39,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RegisterUserActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="com.package.name.REGISTER"/>-->
-                <!--<category android:name="android.intent.category.DEFAULT" />-->
-            <!--</intent-filter>-->
+        <activity android:name=".RegisterUserActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncsu.pmishra.whatscookin.MainActivity" />
         </activity>
     </application>
 

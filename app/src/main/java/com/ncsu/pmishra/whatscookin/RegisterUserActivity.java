@@ -3,6 +3,7 @@ package com.ncsu.pmishra.whatscookin;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -18,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
-public class RegisterUserActivity extends Activity {
+public class RegisterUserActivity extends AppCompatActivity {
 
     private Button registerButton;
     private EditText editTextEmail;
@@ -34,6 +36,11 @@ public class RegisterUserActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registeruser);
+
+        android.support.v7.widget.Toolbar registerToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.register_toolbar);
+        setSupportActionBar(registerToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
