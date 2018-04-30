@@ -1,6 +1,7 @@
 package com.ncsu.pmishra.whatscookin;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,10 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
@@ -26,10 +31,12 @@ public class RegisterUserActivity extends AppCompatActivity {
     private EditText editTextEmail;
     private EditText editTextPassword;
     private EditText editTextConfirmPassword;
+
     private ProgressBar spinner;
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference databaseReference;
 
-    ArrayList<String> preferenceList = new ArrayList<String>();
+    private ArrayList<String> preferenceList = new ArrayList<String>();
 
 
     @Override
@@ -43,6 +50,14 @@ public class RegisterUserActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null)
+        {
+            finish();
+            startActivity(new Intent(getApplicationContext(), HomepageActivity.class));
+        }
+
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+
 
         registerButton = (Button) findViewById(R.id.register_now_button);
         editTextEmail = (EditText) findViewById(R.id.registerEmail);
@@ -112,7 +127,7 @@ public class RegisterUserActivity extends AppCompatActivity {
             Toast.makeText(this, "Please re-enter Password!", Toast.LENGTH_SHORT).show();
             return;
         }
-        if(TextUtils.equals(password, confirmPassword))
+        if(!TextUtils.equals(password, confirmPassword))
         {
             Toast.makeText(this, "Passwords do not match!", Toast.LENGTH_SHORT).show();
             return;
@@ -128,10 +143,27 @@ public class RegisterUserActivity extends AppCompatActivity {
                         if (task.isSuccessful())
                         {
                             Toast.makeText(RegisterUserActivity.this, "User Registered Successfully!", Toast.LENGTH_SHORT).show();
+                            saveUserInfo();
+                            finish();
+                            startActivity(new Intent(getApplicationContext(), HomepageActivity.class));
                         } else {
-                            Toast.makeText(RegisterUserActivity.this, "Cannot register user!", Toast.LENGTH_SHORT).show();
+                            FirebaseAuthException e = (FirebaseAuthException )task.getException();
+                            Toast.makeText(RegisterUserActivity.this, "Failed Registration: "+e.getMessage(), Toast.LENGTH_SHORT).show();
+
+                            return;
                         }
                     }
                 });
+    }
+
+    public void saveUserInfo()
+    {
+        String email = editTextEmail.getText().toString().trim();
+        String password = editTextPassword.getText().toString().trim();
+
+        RegisterUserInfo registerUserInfo = new RegisterUserInfo(email, password, preferenceList);
+
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+        databaseReference.child(user.getUid()).setValue(registerUserInfo);
     }
 }
