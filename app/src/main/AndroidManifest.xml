@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
@@ -38,12 +39,21 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RegisterUserActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="com.package.name.REGISTER"/>-->
-                <!--<category android:name="android.intent.category.DEFAULT" />-->
-            <!--</intent-filter>-->
+        <activity
+            android:name=".RegisterUserActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncsu.pmishra.whatscookin.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomepageActivity"
+            android:label="@string/title_activity_homepage"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncsu.pmishra.whatscookin.MainActivity" />
         </activity>
     </application>
 
