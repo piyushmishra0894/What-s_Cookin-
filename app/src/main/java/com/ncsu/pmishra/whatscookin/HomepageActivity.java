@@ -13,18 +13,41 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class HomepageActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private TextView userEmailTextView;
+
+    private String userEmailString;
+
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+
+        userEmailTextView = (TextView) findViewById(R.id.userEmailTextView);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null)
+        {
+            finish();
+            startActivity(new Intent(getApplicationContext(), HomepageActivity.class));
+        }
+
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -55,6 +78,31 @@ public class HomepageActivity extends AppCompatActivity
         }
 
         firebaseAuth.getCurrentUser();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot userSnapshot : dataSnapshot.getChildren())
+                {
+                    RegisterUserInfo userInfo = userSnapshot.getValue(RegisterUserInfo.class);
+
+                    userEmailString = userInfo.getEmail();
+                }
+
+                userEmailTextView.setText(userEmailString);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
     }
 
     @Override

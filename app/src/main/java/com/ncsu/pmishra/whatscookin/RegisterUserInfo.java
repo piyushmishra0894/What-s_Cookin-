@@ -17,6 +17,14 @@ public class RegisterUserInfo {
         this.preferences = preferences;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public ArrayList<String> getPreferences() {
+        return preferences;
+    }
+
     public RegisterUserInfo(String email, ArrayList<String> preferences) {
         this.email = email;
         this.preferences = preferences;
