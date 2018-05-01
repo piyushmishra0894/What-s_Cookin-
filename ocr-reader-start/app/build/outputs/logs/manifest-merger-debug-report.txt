@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\29df7acec4e2adf4e4975b3c02aa6f51\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.0.0.aar\e1f9dbe82b5ac235ff6f2bd79e91605d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.0.aar\61374bf5c7237d781a5dbe9d3e6c2c61\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\74f0bbe059f514916748e3ce6f1cc7dc\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\7a0e2d0afbe56a88f16ce7929612e43e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\56c1d35c4f9ed3ed53bad9f4c85ff2ea\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\a03ab4a3f637de311455bd66dbf259f8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\bd6d763e2fafdb97ca5b1002073ec372\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\c5dff09477684cace974f42dbb947cec\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\951a9218b57663013d22b419011624d8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\f7d38c8b58d142b210e402a47f74d3d8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\f80ba4b69250408b3f4036e8fcaf80c0\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:3:5-62
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:10:5-32:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\29df7acec4e2adf4e4975b3c02aa6f51\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\29df7acec4e2adf4e4975b3c02aa6f51\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.0.0.aar\e1f9dbe82b5ac235ff6f2bd79e91605d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.0.0.aar\e1f9dbe82b5ac235ff6f2bd79e91605d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.0.aar\61374bf5c7237d781a5dbe9d3e6c2c61\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.0.aar\61374bf5c7237d781a5dbe9d3e6c2c61\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\74f0bbe059f514916748e3ce6f1cc7dc\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\74f0bbe059f514916748e3ce6f1cc7dc\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\56c1d35c4f9ed3ed53bad9f4c85ff2ea\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\56c1d35c4f9ed3ed53bad9f4c85ff2ea\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\a03ab4a3f637de311455bd66dbf259f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\a03ab4a3f637de311455bd66dbf259f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\bd6d763e2fafdb97ca5b1002073ec372\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\bd6d763e2fafdb97ca5b1002073ec372\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\c5dff09477684cace974f42dbb947cec\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\c5dff09477684cace974f42dbb947cec\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\951a9218b57663013d22b419011624d8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\951a9218b57663013d22b419011624d8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\f7d38c8b58d142b210e402a47f74d3d8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\f7d38c8b58d142b210e402a47f74d3d8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\f80ba4b69250408b3f4036e8fcaf80c0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\f80ba4b69250408b3f4036e8fcaf80c0\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:16:9-37
+	android:label
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:15:9-37
+	android:hardwareAccelerated
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:12:9-42
+	android:icon
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:20:13-66
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:19:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:21:9-23:35
+	android:value
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:23:13-32
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:22:13-70
+activity#com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:label
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:26:13-38
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:25:19-100
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\29df7acec4e2adf4e4975b3c02aa6f51\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\29df7acec4e2adf4e4975b3c02aa6f51\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.0.0.aar\e1f9dbe82b5ac235ff6f2bd79e91605d\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.0.0.aar\e1f9dbe82b5ac235ff6f2bd79e91605d\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.0.aar\61374bf5c7237d781a5dbe9d3e6c2c61\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.0.aar\61374bf5c7237d781a5dbe9d3e6c2c61\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.0.aar\c58e27f22d04f5d3ed45ec59c9420841\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\74f0bbe059f514916748e3ce6f1cc7dc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\74f0bbe059f514916748e3ce6f1cc7dc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\7a0e2d0afbe56a88f16ce7929612e43e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\7a0e2d0afbe56a88f16ce7929612e43e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\56c1d35c4f9ed3ed53bad9f4c85ff2ea\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\56c1d35c4f9ed3ed53bad9f4c85ff2ea\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\a03ab4a3f637de311455bd66dbf259f8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\a03ab4a3f637de311455bd66dbf259f8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\bd6d763e2fafdb97ca5b1002073ec372\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\bd6d763e2fafdb97ca5b1002073ec372\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\c5dff09477684cace974f42dbb947cec\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\c5dff09477684cace974f42dbb947cec\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\951a9218b57663013d22b419011624d8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\951a9218b57663013d22b419011624d8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\f7d38c8b58d142b210e402a47f74d3d8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\f7d38c8b58d142b210e402a47f74d3d8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\f80ba4b69250408b3f4036e8fcaf80c0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\f80ba4b69250408b3f4036e8fcaf80c0\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\f24b3c75008736d4c14f2b01bcc269f9\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sunny\Desktop\ocr-reader-start\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.0.aar\ab28f559900716e51dcf15e968bb3947\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Sunny\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.0.aar\dc3de5fc295529e670cb69e888658fe1\AndroidManifest.xml:9:13-58
