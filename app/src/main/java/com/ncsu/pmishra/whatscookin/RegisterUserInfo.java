@@ -16,4 +16,9 @@ public class RegisterUserInfo {
         this.password = password;
         this.preferences = preferences;
     }
+
+    public RegisterUserInfo(String email, ArrayList<String> preferences) {
+        this.email = email;
+        this.preferences = preferences;
+    }
 }

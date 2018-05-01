@@ -85,7 +85,8 @@ public class HomepageActivity extends AppCompatActivity
         if (id == R.id.action_settings) {
             firebaseAuth.signOut();
             finish();
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, MainActivity.class
+            ));
             return true;
         }
 

@@ -159,9 +159,10 @@ public class RegisterUserActivity extends AppCompatActivity {
     public void saveUserInfo()
     {
         String email = editTextEmail.getText().toString().trim();
-        String password = editTextPassword.getText().toString().trim();
+        //String password = editTextPassword.getText().toString().trim();
 
-        RegisterUserInfo registerUserInfo = new RegisterUserInfo(email, password, preferenceList);
+        //RegisterUserInfo registerUserInfo = new RegisterUserInfo(email, password, preferenceList);
+        RegisterUserInfo registerUserInfo = new RegisterUserInfo(email, preferenceList);
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
         databaseReference.child(user.getUid()).setValue(registerUserInfo);
